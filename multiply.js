@@ -4,6 +4,9 @@ btn.addEventListner("click", function(){
 	
 }); */
 
+const element = document.getElementById("btn");
+element.addEventListener("click", multiplication);
+
 function multiplication(){
 	var number = document.getElementById("number").value;
 	var range = document.getElementById("range").value;

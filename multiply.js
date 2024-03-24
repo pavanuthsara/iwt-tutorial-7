@@ -6,7 +6,7 @@ function multiplication(){
 	var range = document.getElementById("range").value;
 	var answer;
 
-	document.write("<table>");
+	document.write("<table border='5'>");
 	for(let i=0; i<number; i++){
 		document.write("<tr>");
 		for(let j=0; j<range; j++){

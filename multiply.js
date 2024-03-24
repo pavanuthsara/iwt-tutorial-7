@@ -5,16 +5,15 @@ function multiplication(){
 	var number = document.getElementById("number").value;
 	var range = document.getElementById("range").value;
 	var answer;
-	var result;
 
+	document.write("<table>");
 	for(let i=0; i<number; i++){
-		result = "<tr>";
+		document.write("<tr>");
 		for(let j=0; j<range; j++){
 			answer = (i+1)*(j+1);
-			result += "<td>" + answer + "</td>";
+			document.write("<td>" + answer + "</td>");
 		}
-		result += "<tr><br>";
-		//document.write("<br>");
-		document.write(result);
+		document.write("</tr>");
 	}
+	document.write("</table>");
 }
